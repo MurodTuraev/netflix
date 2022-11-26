@@ -13,7 +13,7 @@ jobs:
           POSTGRES_PASSWORD: postgres
         ports:
           - 5432:5432
-    runs-on: ubunutu-latest
+    runs-on: ubuntu-latest
     env:
       DJANGO_SETTINGS_MODULE: netflix.settings
     steps:
